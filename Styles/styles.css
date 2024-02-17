@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Courier New', Courier, monospace;
+}
+.container-alumnos {
+  background-color: #2e4347;
+  max-width: 90%;
+  margin: 25px auto;
+  width: 1100px;
+  height: 700px;
+  border: 1px solid #acacac;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+}
+
+.left-container {
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  background-color: #2e4347;
+  border-radius: 15px;
+  border: 3px solid #f5df98;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.);
+}
+.right-container {
+    margin: auto 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.agree-student{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 10%;
+}
+
+.list-students-container{
+    
+    background-color: #c0d1c2;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.class-view{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 10%;
+}
+
+.agree-student-btn{
+    background-color: #f5df98;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #3e3e3e;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.agree-student-btn:active{
+    background-color: #f9d970;
+    color: #ffffff;
+}
+
+.class-view-btn{
+    background-color: #f5df98;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #3e3e3e;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+.class-view-btn:active{
+    background-color: #2e4347;
+    color: #ffffff;
+}
+
+
+/* form student */
+
+.form-student{
+    margin: 15px auto;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+}
+
+
+.form-student h2{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-student input{
+    padding: 10px;
+    width: 100%;
+    border: solid 1.5px #cbcbcb;
+    border-radius: 5px;
+}
+
+
+/* container-students */
+
+.input-search{
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.list-students{
+    margin-top: 15px;
+    background-color: #fff;
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.student-container{
+    margin: auto;   
+    padding: 5px;
+    background-color: #ffffff;
+    height: 35px;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+    color: #969696;
+    cursor: pointer;
+}
+
+.student-container:hover{
+    background-color: #2e4347;
+    color: #ffffff;
+}
+
+
+/* student card */
+
+.student-card{
+    margin: 25px auto;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-student{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+.image-student ion-icon{ font-size: 80px; color: #f9d970;}
+
+.student-data{
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.student-data h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #f9d970;
+}
+
+.student-data-personal{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+
+/* class container */
+.student-grades{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 5px;
+}
+
+.class-container{ 
+    font-size: 14px;
+    width: 100%;  
+    padding: 8px;
+    background-color: #f5df98;
+    height: 40px;
+    border-bottom: 1px solid #f5df98;
+    text-align: center;
+    color: #2e4347;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+body {
+  background: url(./background-2.jpg);
+  background-size: cover;
+  
+}
